@@ -10,6 +10,6 @@ public class MainController {
 
 	@GetMapping("/hello")
 	public String getMsg() {
-		return "Hello World!";
+		return "Hello World !";
 	}
 }
