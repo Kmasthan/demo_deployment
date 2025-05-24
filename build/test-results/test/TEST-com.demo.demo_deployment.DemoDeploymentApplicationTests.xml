@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.demo.demo_deployment.DemoDeploymentApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-05-24T10:11:27.634Z" hostname="spaneos-System-Product-Name" time="1.071">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.demo.demo_deployment.DemoDeploymentApplicationTests" time="1.071"/>
+  <system-out><![CDATA[15:41:24.855 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.demo.demo_deployment.DemoDeploymentApplicationTests]: DemoDeploymentApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:41:25.064 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.demo.demo_deployment.DemoDeploymentApplication for test class com.demo.demo_deployment.DemoDeploymentApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.6)
+
+2025-05-24T15:41:25.831+05:30  INFO 6698 --- [demo_deployment] [    Test worker] c.d.d.DemoDeploymentApplicationTests     : Starting DemoDeploymentApplicationTests using Java 17.0.15 with PID 6698 (started by personal in /home/personal/demo_deployments/demo_deployment)
+2025-05-24T15:41:25.835+05:30  INFO 6698 --- [demo_deployment] [    Test worker] c.d.d.DemoDeploymentApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T15:41:27.609+05:30  INFO 6698 --- [demo_deployment] [    Test worker] c.d.d.DemoDeploymentApplicationTests     : Started DemoDeploymentApplicationTests in 2.299 seconds (process running for 3.939)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
